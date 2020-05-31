@@ -120,5 +120,33 @@ header nav ul li a {
 /* End work layout */
 
 /* Contact Me layout */
+footer {
+    display: flex;
+    padding: 10px 0 25px 0;
+}
 
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 40px 0 0;
+    list-style: none;
+    color: var(--primary-color);
+    flex-grow: 1;
+    border-left: 3px solid var(--primary-color);
+}
+
+footer ul li {
+    padding: 2px 5px;
+    margin: 0 5px;
+    font-size: 1.4vw;
+    font-weight: lighter;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+footer ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
 /* End contact me layout */
