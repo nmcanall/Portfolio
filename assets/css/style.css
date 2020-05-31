@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    padding: 60px;
+    padding: 20px 40px;
 }
 /* End whole page layout */
 
@@ -77,13 +77,16 @@ header nav ul li a {
 /* Hero layout */
 .hero {
     background-image: url("../images/hero-img.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     flex-wrap: wrap;
-    align-items: flex-start;
+    height: 300px;
+}
+
+.hero h2 {
+    background-color: var(--secondary-color);
+    padding: 5px;
 }
 /* End hero layout */
 
