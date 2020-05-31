@@ -1,13 +1,90 @@
 /* Whole page layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --primary-color: #191b59;
+    --secondary-color: #9fceed;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 60px;
+}
 /* End whole page layout */
 
 /* General content layout */
 
 /* End general content layout */
 
-/* Hero layout */
+/* Header layout */
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
 
+header h1 {
+    background-color: var(--secondary-color);
+    padding: 5px 8px 5px 60px;
+    margin: 0;
+    font-size: 36px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 0;
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+header nav ul li {
+    padding: 2px 10px;
+    margin: 0 5px;
+    font-size: 1.4vw;
+    font-weight: lighter;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+header nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+/* End header layout */
+
+/* Hero layout */
+.hero {
+    background-image: url("../images/hero-img.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 /* End hero layout */
 
 /* About Me layout */
