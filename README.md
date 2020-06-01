@@ -9,8 +9,8 @@ is no content on my resume.  I will fix that in the future as I develop a profes
 HTML5 and CSS3.  Also links to GitHub repos using java and Android Studio.
 
 ## Links
-GitHub repo: https://github.com/nmcanall/Portfolio/
+GitHub repo: https://github.com/nmcanall/Portfolio/ <br/>
 Deployed site: https://nmcanall.github.io/Portfolio/
 
 ## Preview
-![screensot of site](./assets/images/site-preview.PNG)
+![screensot of site](./assets/images/site-preview.png)
