@@ -337,8 +337,24 @@ footer ul li a:hover {
         margin: 0;
     }
 
+    header nav ul li a {
+        font-size: 9px;
+    }
+
     .hero {
         height: 200px;
+    }
+
+    .hero h2 {
+        text-align: center;
+    }
+
+    .about-me {
+        padding-bottom: 0;
+    }
+
+    .work {
+        padding-top: 0;
     }
 
     .img-description h3 {
@@ -347,5 +363,13 @@ footer ul li a:hover {
 
     .img-description p {
         font-size: 10px;
+    }
+
+    footer ul {
+        line-height: 2;
+    }
+
+    footer ul li a {
+        font-size: 9px;
     }
 }
