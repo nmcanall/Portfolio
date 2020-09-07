@@ -213,10 +213,10 @@ header nav ul li a:hover {
     background-position: center;
 }
 
-.rubiks-cube {
+.movie-finder {
     grid-column: 3 / 5;
     grid-row: 3 / 5;
-    background-image: url(../images/rubiks_cube.svg);
+    background-image: url(../images/movie-finder.PNG);
     background-position: center;
 }
 
